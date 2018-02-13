@@ -18,21 +18,24 @@ public class homeTask2_1 {
         }
         System.out.println();
         System.out.print("*");
+        //код повторяется ниже, хороший сигнал вынести в статический метод 
         for (int i = 0; i <= (strFIO.length() - str1.length())/2; i++ ){
             System.out.print(" ");
         }
-
         System.out.print(str1);
+        //код повторяется 
         for (int i = 0; i <= (strFIO.length() - str1.length())/2; i++ ){
             System.out.print(" ");
         }
         System.out.println(" *");
         System.out.print("*");
+        //код повторяется
         for (int i = 0; i <= (strFIO.length() - str2.length())/2; i++ ){
             System.out.print(" ");
         }
 
         System.out.print(str2);
+        //код повторяется
         for (int i = 0; i <= (strFIO.length() - str2.length())/2; i++ ){
             System.out.print(" ");
         }
@@ -41,7 +44,6 @@ public class homeTask2_1 {
         for (int i = 0; i <= flLength; i++ ){
             System.out.print("*");
         }
-
 
         //*System.out.println();
     }
