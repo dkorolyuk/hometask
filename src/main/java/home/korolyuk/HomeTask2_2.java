@@ -15,6 +15,10 @@ public class HomeTask2_2 {
         String strl1 = ""+l1;
         int l1Length = strl1.length();
         long[] l1Array = new long[l1Length];
+        //Можно решить и без сортировки :)
+        //Просто 2 переменные maxNum и minNum
+        //И присвоение к maxNum текущего числа если оно больше maxNum
+        //И присвоение к minNum текущего числа если оно меньше minNum
         for (int i = 0; i < l1Length; i++){
             l1Array [i] = l1 % 10;
             l1 = l1/10;
